@@ -1,0 +1,28 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .text-4xl {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+    .text-lg {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+    .px-10 {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .py-4 {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  }

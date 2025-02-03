@@ -1,12 +1,27 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import './App.css'
+import NavigationComponent from './components/NavigationComponent'
+import Signup from './pages/Signup'
+import Login from './pages/Login'
+import ResetPassword from './pages/ResetPassword'
+import CheckEmail from './pages/CheckEmail'
+import NewPassword from './pages/NewPassword'
+import Resetcomplete from './pages/ResetComplete'
+import VerifyEmail from './pages/VerifyEmail'
 
 export default function App() {
   return (
     <>
-    <div className='bg-[#eefbf3] h-lvh'>
-    <Navbar/>
-    </div>
+    {/* <Home/> */}
+    {/* <NavigationComponent/> */}
+    {/* <Signup/> */}
+    {/* <Login/> */}
+    {/* <ResetPassword/> */}
+    {/* <CheckEmail/> */}
+    {/* <NewPassword/ > */}
+    {/* <Resetcomplete/> */}
+    {/* <VerifyEmail/> */}
     </>
   )
 }
