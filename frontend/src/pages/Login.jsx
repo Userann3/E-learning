@@ -18,12 +18,12 @@ export default function Login() {
                     <img src="https://htmldemo.net/edule/eduLe/assets/images/register-login.png" alt="" className='w-full max-w-[400px]' />
                 </div>
 
-                <div className='w-full lg:w-lg'>
-                    <form action="" className='flex flex-col'>
+                <div className='w-full lg:w-lg flex flex-col justify-center'>
+                    <form action="" className='flex flex-col '>
                         <span className='flex justify-between w-full'>
-                            <span className='text-3xl sm:text-4xl'>Welcum <span className='text-[#309255]'>Back</span></span>
+                            <span className='text-3xl sm:text-4xl'>Welcome <span className='text-[#309255]'>Back</span></span>
                         </span>
-                        <span className='flex gap-5 rounded-xl mt-5'>
+                        {/* <span className='flex gap-5 rounded-xl mt-5'>
                             <span
                                 className={`py-2 px-4 sm:px-7 text-lg sm:text-xl rounded-lg cursor-pointer transition-all inline-flex ${selectedRole === "student"
                                     ? "bg-[#309255] text-white"
@@ -43,7 +43,7 @@ export default function Login() {
                             >
                                 Instructor
                             </span>
-                        </span>
+                        </span> */}
                         {/* <span className='border border-gray-300 rounded-xl py-3 sm:py-4 px-4 sm:px-5 mt-5'><input type="text" placeholder='Name' className='focus:outline-none w-full' /></span> */}
                         {/* <span className='border border-gray-300 rounded-xl py-3 sm:py-4 px-4 sm:px-5 mt-5'><input type="text" placeholder='Last Name' className='focus:outline-none w-full' /></span> */}
                         <span className='border border-gray-300 rounded-xl py-3 sm:py-4 px-4 sm:px-5 mt-5'><input type="text" placeholder='Email' className='focus:outline-none w-full' /></span>
@@ -62,7 +62,7 @@ export default function Login() {
                         </span>
 
                         {/* Confirm Password Input */}
-                        <span className='border border-gray-300 rounded-xl py-3 sm:py-4 px-4 sm:px-5 mt-5 flex items-center'>
+                        {/* <span className='border border-gray-300 rounded-xl py-3 sm:py-4 px-4 sm:px-5 mt-5 flex items-center'>
                             <input
                                 type={showConfirmPassword ? "text" : "password"}
                                 placeholder='Confirm Password'
@@ -74,7 +74,9 @@ export default function Login() {
                             >
                                 {showConfirmPassword ? <CiRead /> : <CiUnread />}
                             </span>
-                        </span>                        <span className='w-full text-white bg-[#309255] py-2 sm:py-3 text-center text-xl sm:text-2xl rounded-lg mt-5'>Login</span>
+                        </span>                       
+                        */}
+                         <span className='w-full text-white bg-[#309255] py-2 sm:py-3 text-center text-xl sm:text-2xl rounded-lg mt-5'>Login</span> 
                         <span className='w-full text-[#309255] bg-[#e7f8ee] border border-gray-300 py-2 sm:py-3 text-center text-xl sm:text-2xl rounded-lg mt-5'>Login with Google</span>
                         <span className='text-center w-full mt-5 text-[#1d2733]'>Don't have an account? <span className='text-[#309255]'>Signup Here</span></span>
 

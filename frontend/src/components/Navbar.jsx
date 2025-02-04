@@ -70,7 +70,7 @@ export default function Navbar() {
                   All Courses
                 </span>
                 {hoveredItem === 'courses' && (
-                  <ul className='absolute top-full left-0 bg-white border border-gray-200 rounded-lg shadow-lg mt-2 py-2 w-48 border-t-black'>
+                  <ul className='absolute top-full left-0 bg-white border border-gray-200 shadow-lg mt-2 py-2 w-48 border-t-black'>
                     <li className='px-4 py-2 hover:bg-gray-100 transition duration-300'>
                       Courses
                     </li>

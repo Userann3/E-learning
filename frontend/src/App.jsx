@@ -9,6 +9,8 @@ import CheckEmail from './pages/CheckEmail'
 import NewPassword from './pages/NewPassword'
 import Resetcomplete from './pages/ResetComplete'
 import VerifyEmail from './pages/VerifyEmail'
+import Aboutus from './pages/Aboutus'
+import Contactus from './pages/Contactus'
 
 export default function App() {
   return (
@@ -22,6 +24,8 @@ export default function App() {
     {/* <NewPassword/ > */}
     {/* <Resetcomplete/> */}
     {/* <VerifyEmail/> */}
+    {/* <Aboutus/> */}
+    <Contactus/>
     </>
   )
 }

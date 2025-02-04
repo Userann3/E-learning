@@ -19,10 +19,10 @@ export default function ResetPassword() {
             <span className='border border-gray-300 rounded-xl py-3 sm:py-4 px-4 sm:px-5 mt-5'>
               <input type="text" placeholder='Email' className='focus:outline-none w-full' />
             </span>
-            <span className='w-full text-white bg-[#309255] py-2 sm:py-3 text-center text-xl sm:text-2xl rounded-lg mt-5 cursor-pointer'>
+            <button type="submit" className='w-full text-white bg-[#309255] py-2 sm:py-3 text-center text-xl sm:text-2xl rounded-lg mt-5 cursor-pointer hover:bg-[#2a7f4a] transition-colors duration-200'>
               Reset Password
-            </span>
-            <span className='mt-5 flex gap-3 items-center text-[#309255] cursor-pointer'>
+            </button>
+            <span className='mt-5 flex gap-3 items-center text-[#309255] cursor-pointer hover:text-[#2a7f4a] transition-colors duration-200'>
               <CiTurnL1 className='text-xl' />
               <span className='text-base sm:text-lg'>Back to login</span>
             </span>
