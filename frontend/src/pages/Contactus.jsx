@@ -2,11 +2,12 @@ import React from 'react';
 import NavigationComponent from '../components/NavigationComponent';
 import { CiPhone, CiMail, CiLocationOn } from "react-icons/ci";
 import Footer from '../components/Footer';
+import DownloadApp from '../components/DownloadApp';
 
 export default function Contactus() {
     return (
         <>
-            <NavigationComponent />
+            <NavigationComponent currentPage={"Contact us"} pageName1={"contact"} pageName2={"Us"} />
             <div className='max-w-[1500px] mx-auto border border-gray-400 rounded-xl py-6 sm:py-10 px-4 sm:px-10 mt-10 flex flex-col lg:flex-row justify-around gap-6 lg:gap-10'>
                 {/* Contact Information Section */}
                 <div className='w-full lg:w-1/2 bg-[#e7f8ee] px-5 sm:px-7 py-6 sm:py-8 rounded-xl'>
@@ -70,7 +71,8 @@ export default function Contactus() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            <DownloadApp/>
+            <Footer mt="" />
         </>
     );
 }

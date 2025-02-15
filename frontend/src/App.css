@@ -26,3 +26,7 @@
       padding-bottom: 1rem;
     }
   }
+  
+  .active{
+    border-bottom: 2px solid #309255;
+  }

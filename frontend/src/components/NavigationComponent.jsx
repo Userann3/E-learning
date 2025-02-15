@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import { CiMedal, CiRead, CiUnread } from 'react-icons/ci';
 import Footer from './Footer';
 
-export default function NavigationComponent({ currentPage }) {
+export default function NavigationComponent({ currentPage , pageName1 , pageName2}) {
     const [selectedRole, setSelectedRole] = useState("student");
     const [showPassword, setShowPassword] = useState(false);
     const [showConfirmPassword, setShowConfirmPassword] = useState(false);
@@ -19,7 +19,7 @@ export default function NavigationComponent({ currentPage }) {
                 <div className='max-w-[1500px] mx-auto sm:px-8 md:px-8 lg:px-0 flex justify-between items-center h-full'>
                     <div className='flex flex-col gap-2 sm:gap-5'>
                         <span className='text-lg sm:text-xl text-[#1d2733]'>Home // <span className='text-[#309255]'>{currentPage ? currentPage : 'Login'}</span></span>
-                        <span className='text-3xl sm:text-5xl'>Login <span className='text-[#309255]'>Form</span></span>
+                        <span className='text-3xl sm:text-5xl'>{pageName1 ? pageName1 : 'Page Name'} <span className='text-[#309255]'>{pageName2 ? pageName2 : 'Here'}</span></span>
                     </div>
                 </div>
             </div>

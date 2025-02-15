@@ -2,10 +2,11 @@ import React from 'react'
 import { CiMail } from "react-icons/ci";
 import { CiPhone } from "react-icons/ci";
 import { CiFacebook ,CiTwitter,CiInstagram,CiLinkedin } from "react-icons/ci";
-export default function Footer() {
+
+export default function Footer({mt}) {
   return (
     <>
-<div className='w-full bg-[#e7f8ee] mt-20'>
+<div className={'w-full bg-[#e7f8ee] ' + mt}>
   <div className='max-w-[1500px] mx-auto px-4 py-7 flex flex-col md:flex-row justify-between gap-8 md:gap-4'>
     {/* Logo and Contact Info */}
     <div className='flex flex-col gap-5'>

@@ -12,7 +12,7 @@ export default function Login() {
 
     return (
         <>
-        <NavigationComponent/>
+        <NavigationComponent currentPage={"Login"} pageName1={"login"}/>
         <div className='max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 border border-gray-400 py-10 rounded-xl flex flex-col lg:flex-row justify-around mt-10 gap-10'>
                 <div className='bg-[#e7f8ee] p-5 rounded-xl flex justify-center'>
                     <img src="https://htmldemo.net/edule/eduLe/assets/images/register-login.png" alt="" className='w-full max-w-[400px]' />
@@ -83,7 +83,7 @@ export default function Login() {
                     </form>
                 </div>
             </div>
-            <Footer/>
+            <Footer mt="mt-10"/>
         </>
     )
 }

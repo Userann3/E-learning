@@ -411,7 +411,7 @@ export default function Home() {
       </div> */}
 
       <Testimonials />
-      <Footer />
+      <Footer mt="mt-10"/>
 
 
 
