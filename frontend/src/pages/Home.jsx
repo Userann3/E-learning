@@ -10,6 +10,7 @@ import { CiMedal } from "react-icons/ci";
 import Testimonials from '../components/Testimonials';
 import Footer from '../components/Footer';
 import NavigationComponent from '../components/NavigationComponent';
+import EnrolledCourses from '../components/EnrolledCourses';
 
 
 
@@ -104,20 +105,21 @@ export default function Home() {
                   className='rounded-lg w-full h-48 xl:h-64 object-cover'
                 />
               </div>
-              <div className='w-full flex flex-col justify-between'>
+              <div className='w-full flex flex-col'>
                 <span className='text-2xl xl:text-3xl text-[#309255]'>Machine Learning</span>
                 <span className='text-base xl:text-lg mt-3'>Data Science and Machine Learning with Python - Hands On!</span>
-                <div className='flex flex-col xl:flex-row items-center justify-between mt-3 gap-3 xl:gap-0'>
+                <div className='flex flex-col xl:flex-row items-center mt-3 xl:gap-0'>
                   <span className='flex items-center gap-2'>
                     <CiClock2 className='text-2xl text-[#309255]' />
                     <span className='text-gray-600'>18 hr 15 mins</span>
                   </span>
-                  <span className='flex items-center gap-2'>
+                  <span className='flex items-center gap-2 ms-5'>
                     <CiViewList className='text-2xl text-[#309255]' />
                     <span className='text-gray-600'>29 Lectures</span>
                   </span>
-                  <span className='bg-[#eefbf3] text-[#309255] py-2 px-5 rounded-lg text-sm xl:text-md'>Buy now $350</span>
                 </div>
+                  <span className=' text-[#309255] rounded-lg text-xl xl:text-md mt-3'>Rating 4.5</span>
+                  <span className='bg-[#eefbf3] mt-5 text-[#309255] py-3 px-5 rounded-lg text-xl xl:text-md text-center'>Buy now $350</span>
               </div>
             </div>
 
@@ -125,25 +127,26 @@ export default function Home() {
             <div className='w-full flex flex-col xl:flex-row gap-5 p-5 border border-gray-400 rounded-lg'>
               <div className='w-full xl:w-1/2'>
                 <img
-                  src="https://htmldemo.net/edule/eduLe/assets/images/courses/courses-01.jpg"
-                  alt="UI/UX"
+                  src="https://htmldemo.net/edule/eduLe/assets/images/courses/courses-02.jpg"
+                  alt="Machine Learning"
                   className='rounded-lg w-full h-48 xl:h-64 object-cover'
                 />
               </div>
-              <div className='w-full flex flex-col justify-between'>
-                <span className='text-2xl xl:text-3xl text-[#309255]'>UI/UX</span>
-                <span className='text-base xl:text-lg mt-3'>Create Amazing Color Schemes for Your UX Design Projects</span>
-                <div className='flex flex-col xl:flex-row items-center justify-between mt-3 gap-3 xl:gap-0'>
+              <div className='w-full flex flex-col'>
+                <span className='text-2xl xl:text-3xl text-[#309255]'>Machine Learning</span>
+                <span className='text-base xl:text-lg mt-3'>Data Science and Machine Learning with Python - Hands On!</span>
+                <div className='flex flex-col xl:flex-row items-center mt-3 xl:gap-0'>
                   <span className='flex items-center gap-2'>
                     <CiClock2 className='text-2xl text-[#309255]' />
                     <span className='text-gray-600'>18 hr 15 mins</span>
                   </span>
-                  <span className='flex items-center gap-2'>
+                  <span className='flex items-center gap-2 ms-5'>
                     <CiViewList className='text-2xl text-[#309255]' />
                     <span className='text-gray-600'>29 Lectures</span>
                   </span>
-                  <span className='bg-[#eefbf3] text-[#309255] py-2 px-5 rounded-lg text-sm xl:text-md'>Buy now $350</span>
                 </div>
+                  <span className=' text-[#309255] rounded-lg text-xl xl:text-md mt-3'>Rating 4.5</span>
+                  <span className='bg-[#eefbf3] mt-5 text-[#309255] py-3 px-5 rounded-lg text-xl xl:text-md text-center'>Buy now $350</span>
               </div>
             </div>
           </div>
@@ -154,25 +157,26 @@ export default function Home() {
             <div className='w-full flex flex-col xl:flex-row gap-5 p-5 border border-gray-400 rounded-lg'>
               <div className='w-full xl:w-1/2'>
                 <img
-                  src="https://htmldemo.net/edule/eduLe/assets/images/courses/courses-03.jpg"
-                  alt="Business"
+                  src="https://htmldemo.net/edule/eduLe/assets/images/courses/courses-02.jpg"
+                  alt="Machine Learning"
                   className='rounded-lg w-full h-48 xl:h-64 object-cover'
                 />
               </div>
-              <div className='w-full  flex flex-col justify-between'>
-                <span className='text-2xl xl:text-3xl text-[#309255]'>Business</span>
-                <span className='text-base xl:text-lg mt-3'>Culture & Leadership: Strategies for a Successful Business</span>
-                <div className='flex flex-col xl:flex-row items-center justify-between mt-3 gap-3 xl:gap-0'>
+              <div className='w-full flex flex-col'>
+                <span className='text-2xl xl:text-3xl text-[#309255]'>Machine Learning</span>
+                <span className='text-base xl:text-lg mt-3'>Data Science and Machine Learning with Python - Hands On!</span>
+                <div className='flex flex-col xl:flex-row items-center mt-3 xl:gap-0'>
                   <span className='flex items-center gap-2'>
                     <CiClock2 className='text-2xl text-[#309255]' />
                     <span className='text-gray-600'>18 hr 15 mins</span>
                   </span>
-                  <span className='flex items-center gap-2'>
+                  <span className='flex items-center gap-2 ms-5'>
                     <CiViewList className='text-2xl text-[#309255]' />
                     <span className='text-gray-600'>29 Lectures</span>
                   </span>
-                  <span className='bg-[#eefbf3] text-[#309255] py-2 px-5 rounded-lg text-sm xl:text-md'>Buy now $350</span>
                 </div>
+                  <span className=' text-[#309255] rounded-lg text-xl xl:text-md mt-3'>Rating 4.5</span>
+                  <span className='bg-[#eefbf3] mt-5 text-[#309255] py-3 px-5 rounded-lg text-xl xl:text-md text-center'>Buy now $350</span>
               </div>
             </div>
 
@@ -180,25 +184,26 @@ export default function Home() {
             <div className='w-full flex flex-col xl:flex-row gap-5 p-5 border border-gray-400 rounded-lg'>
               <div className='w-full xl:w-1/2'>
                 <img
-                  src="https://htmldemo.net/edule/eduLe/assets/images/courses/courses-04.jpg"
-                  alt="Finance"
+                  src="https://htmldemo.net/edule/eduLe/assets/images/courses/courses-02.jpg"
+                  alt="Machine Learning"
                   className='rounded-lg w-full h-48 xl:h-64 object-cover'
                 />
               </div>
-              <div className='w-full  flex flex-col justify-between'>
-                <span className='text-2xl xl:text-3xl text-[#309255]'>Finance</span>
-                <span className='text-base xl:text-lg mt-3'>Finance Series: Learn to Budget and Calculate your Net Worth.</span>
-                <div className='flex flex-col xl:flex-row items-center justify-between mt-3 gap-3 xl:gap-0'>
+              <div className='w-full flex flex-col'>
+                <span className='text-2xl xl:text-3xl text-[#309255]'>Machine Learning</span>
+                <span className='text-base xl:text-lg mt-3'>Data Science and Machine Learning with Python - Hands On!</span>
+                <div className='flex flex-col xl:flex-row items-center mt-3 xl:gap-0'>
                   <span className='flex items-center gap-2'>
                     <CiClock2 className='text-2xl text-[#309255]' />
                     <span className='text-gray-600'>18 hr 15 mins</span>
                   </span>
-                  <span className='flex items-center gap-2'>
+                  <span className='flex items-center gap-2 ms-5'>
                     <CiViewList className='text-2xl text-[#309255]' />
                     <span className='text-gray-600'>29 Lectures</span>
                   </span>
-                  <span className='bg-[#eefbf3] text-[#309255] py-2 px-5 rounded-lg text-sm xl:text-md'>Buy now $350</span>
                 </div>
+                  <span className=' text-[#309255] rounded-lg text-xl xl:text-md mt-3'>Rating 4.5</span>
+                  <span className='bg-[#eefbf3] mt-5 text-[#309255] py-3 px-5 rounded-lg text-xl xl:text-md text-center'>Buy now $350</span>
               </div>
             </div>
           </div>
@@ -411,7 +416,7 @@ export default function Home() {
       </div> */}
 
       <Testimonials />
-      <Footer mt="mt-10"/>
+      <Footer mt="mt-10" />
 
 
 

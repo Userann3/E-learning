@@ -26,7 +26,7 @@ export default function StudentDashbord() {
 
     return (
         <>
-            <NavigationComponent currentPage="Dashbord" pageName1="My" pageName2="Dashbord" />
+            <NavigationComponent currentPage="Dashbord" pageName1={activeComponent} pageName2=" " />
 
             <div className='max-w-[1500px] mx-auto bg-[#e7f8ee] rounded-xl mt-20 py-7 px-4 flex justify-between'>
                 <div className='flex justify-evenly items-center gap-5'>
@@ -34,6 +34,10 @@ export default function StudentDashbord() {
                     <span onClick={() => setActiveComponent('EnrolledCourses')} className={`rounded-xl py-3 px-4 md:py-4 md:px-5 text-lg md:text-xl cursor-pointer ${activeComponent === 'EnrolledCourses' ? 'bg-[#309255] text-white' : 'bg-white text-gray-600'}`}>Enrolled Courses</span>
                     <span onClick={() => setActiveComponent('PurchaseHistory')} className={`rounded-xl py-3 px-4 md:py-4 md:px-5 text-lg md:text-xl cursor-pointer ${activeComponent === 'PurchaseHistory' ? 'bg-[#309255] text-white' : 'bg-white text-gray-600'}`}>Purchase History</span>
                     <span onClick={() => setActiveComponent('OtherCourses')} className={`rounded-xl py-3 px-4 md:py-4 md:px-5 text-lg md:text-xl cursor-pointer ${activeComponent === 'OtherCourses' ? 'bg-[#309255] text-white' : 'bg-white text-gray-600'}`}>Other Courses</span>
+                </div>
+                <div>
+                <span className="rounded-xl text-center flex py-3 px-4 md:py-4 md:px-8 text-lg md:text-xl cursor-pointer  bg-red-200 text-red-800 ">Log out</span>
+
                 </div>
             </div>
             

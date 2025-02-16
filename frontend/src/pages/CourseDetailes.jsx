@@ -11,7 +11,7 @@ export default function CourseDetailes() {
     return (
         <>
             <NavigationComponent />
-            <div className='max-w-[1500px] mx-auto flex mt-10 gap-10'>
+            <div className='max-w-[1500px] mx-auto flex justify-between mt-10 gap-10'>
 
                 <div className='flex flex-col gap-5 w-3xl'>
                     <div className=''>

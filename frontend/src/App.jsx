@@ -19,6 +19,9 @@ import CoursesOfEdule from './pages/CoursesOfEdule'
 import MyProfile from './pages/MyProfile'
 import Layout from './pages/Layout'
 import StudentDashbord from './pages/StudentDashbord'
+import SingleEnrolledCourse from './components/SingleEnrolledCourse'
+import AddCourse from './components/AddCourse'
+// import AddCo
 
 export default function App() {
   return (
@@ -39,6 +42,7 @@ export default function App() {
       {/* <AllCourses/> */}
       {/* <CoursesOfEdule/> */}
       {/* <MyProfile/> */}
+      
 
       <BrowserRouter>
         <Routes>
@@ -53,10 +57,12 @@ export default function App() {
           <Route path="/aboutus" element={<Aboutus/>} />
           <Route path="/contactus" element={<Contactus/>} />
           <Route path="/studentdashbord" element={<StudentDashbord/>} />
-          <Route path="/coursedetailes/:id" element={<CourseDetailes/>} />
+          <Route path="/coursedetailes" element={<CourseDetailes/>} />
           <Route path="/navbaraftersignup" element={<NavbarAfterSignup/>} />
           <Route path="/coursesofedule" element={<CoursesOfEdule/>} />
           <Route path="/myprofile" element={<MyProfile/>} />
+          <Route path='/singleEnrolledCourse' element={<SingleEnrolledCourse/>}/>
+          <Route path='/addcourse' element={<AddCourse/>}/>
 
         </Routes> 
       </BrowserRouter>

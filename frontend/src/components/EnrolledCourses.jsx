@@ -1,6 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
-export default function EnrolledCourses() {
+export default function EnrolledCourses({ home }) {
+
+    const [cardHome, setCradHome] = useState(false);
+
+    let handelHomeCard = () => {
+        if (home) {
+            setCradHome(!cardHome);
+        }
+    }
+
+    useEffect(()=>{
+        handelHomeCard()
+    },[])
+
     return (
         <>
             <div className='max-w-[1500px] mx-auto flex flex-wrap justify-center gap-8 mt-10 px-4 md:px-0'>
@@ -12,8 +25,20 @@ export default function EnrolledCourses() {
                             <span className='text-gray-600'>Jason Williams</span>
                         </span>
                         <span className='text-xl text-center md:text-left'>Data Science and Machine Learning with Python - Hands On!</span>
-                        <span className='text-gray-600 self-start'>40% Completed</span>
-                        <span className='w-full h-1 bg-gray-200 flex'><span className='bg-[#309255] h-1 w-32'></span></span>
+
+                        {
+                            cardHome ? (
+                                <span>helo</span>
+                            ) : (
+                                <>
+                                    <span className='text-gray-600 self-start'>40% Completed</span>
+                                    <span className='w-full h-1 bg-gray-200 flex'>
+                                        <span className='bg-[#309255] h-1 w-32'></span>
+                                    </span>
+                                </>
+                            )
+                        }
+
 
                     </div>
                 ))}
